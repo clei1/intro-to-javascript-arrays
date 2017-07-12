@@ -84,8 +84,6 @@ var evenNumbers = new Array();
 
 Arrays are _ordered_, meaning that the elements in them will always appear in the same order. The array `[1, 1, 2]`, is different from the array `[1, 2, 1]`.
 
-**TODO**: In `arrays.js`, define a variable called `chocolateBars`. Its value should be an array of the strings `snickers`, `hundred grand`, `kitkat`, and `skittles`.
-
 ## Adding an Element
 
 JavaScript allows us to `push` elements onto the end of an array:
@@ -156,10 +154,6 @@ myArray // [1, 2, 3, undefined, undefined, 5]
 
 it's best not to. We should treat arrays as ordered lists of information that can be **any length**, so updating a specific index should feel like a weird thing to do. Moreover, adding elements directly inserts `undefined` (as demonstrated above) if we also need to increase the array's length, which can lead to unexpected behavior.
 
-**TODO**: In `arrays.js`, define two functions, `addElementToBeginningOfArray` and `destructivelyAddElementToBeginningOfArray`. Both functions take two parameters, an array and an element to add to the beginning of the array, and both functions should add the element to the beginning of the array and then return the whole array. The destructive function, `destructivelyAddElementToBeginningOfArray`, should alter the original array that's passed in; `addElementToBeginningOfArray`, on the other hand, should return a new array **and not modify the original**.
-
-**TODO**: Define two more functions, `addElementToEndOfArray` and `destructivelyAddElementToEndOfArray`. These functions also take two arguments, an array and an element to add to the end of the array. `addElementToEndOfArray` **should not** alter the original array; `destructivelyAddElementToEndOfArray` **should** alter the original array.
-
 ## Accessing an Element
 
 You can get elements out of arrays if you know their index. Array elements' indexes start at 0 and increment by 1, so the first element's index is `0`, the second element's index is `1`, the third element's is `2`, etc.
@@ -177,8 +171,6 @@ console.log(entrepreneurs[2] + bio);
 // the line below will return undefined
 entrepreneurs[9];
 ```
-
-**TODO**: Define a function in `arrays.js` called `accessElementInArray`. The function should accept an array and an index and return the element at that index.
 
 **NOTE**: If you had to guess, would you say that array indexes are *numbers* or *strings*? Think about it for a second, then read on.
 
@@ -199,8 +191,6 @@ days // ["Tuesday", "Wednesday"]
 ```
 
 As with `unshift`, this method is _destructive_; it **mutates** the underlying array.
-
-**TODO**: Define a function in `arrays.js` called `destructivelyRemoveElementFromBeginningOfArray` that takes an array as its only argument and removes the first element. Your function should then return the entire array, and it **should** mutate the array.
 
 Because we tend to want to avoid destruction, there is also a way to remove the first element from an array without changing the underlying array: we can use the `slice` method.
 
@@ -236,8 +226,6 @@ cats.slice(-2) // ["Garfield", "Otis"]
 cats.slice(-1) // ["Otis"]
 ```
 
-**TODO**: Define a function in `arrays.js` called `removeElementFromBeginningOfArray` that takes an array as its only argument and removes the first element. Your function should then return the entire array, and it **should not** mutate the underlying array.
-
 ### From the End of an Array
 
 To remove an element from the end of of an array, we can use the `pop` method:
@@ -252,8 +240,6 @@ iceCreams // ["chocolate", "vanilla"]
 
 As with `push`, this method is _destructive_; it **mutates** the underlying array.
 
-**TODO**: Define a function in `arrays.js` called `destructivelyRemoveElementFromEndOfArray` that takes an array as its only argument and removes the last element. Your function should return the entire array, and it **should** mutate the array.
-
 We can use `slice` to perform the above action without changing the underlying array. It takes a bit more work than removing the first element, since we want the slice from index `0` (remember, the first element is at index `0`!) to the end. Hmmmm — what property do arrays have that can help us? `length`!
 
 ``` javascript
@@ -263,8 +249,6 @@ iceCreams.slice(0, iceCreams.length - 1) // ["chocolate", "vanilla"]
 
 iceCreams // ["chocolate", "vanilla", "raspberry"]
 ```
-
-**TODO**: Define a function in `arrays.js` called `removeElementFromEndOfArray` that takes an array as its only argument and removes the last element. Your function should return the entire array, and it **should not** mutate the array.
 
 ### From the Middle of an Array
 
@@ -360,6 +344,21 @@ array.length;
 ```
 
 We don't tend to do these kinds of things on purpose, but it's important to be aware that they can happen so that you have a good sense of where to look if/when strange bugs start to appear.
+
+## TODOS:
+
+**TODO**: In `arrays.js`, define a variable called `chocolateBars`. Its value should be an array of the strings `snickers`, `hundred grand`, `kitkat`, and `skittles`.
+
+**TODO**: In `arrays.js`, define two functions, `addElementToBeginningOfArray` and `destructivelyAddElementToBeginningOfArray`. Both functions take two parameters, an array and an element to add to the beginning of the array, and both functions should add the element to the beginning of the array and then return the whole array. The destructive function, `destructivelyAddElementToBeginningOfArray`, should alter the original array that's passed in; `addElementToBeginningOfArray`, on the other hand, should return a new array **and not modify the original**.
+
+**TODO**: Define two more functions, `addElementToEndOfArray` and `destructivelyAddElementToEndOfArray`. These functions also take two arguments, an array and an element to add to the end of the array. `addElementToEndOfArray` **should not** alter the original array; `destructivelyAddElementToEndOfArray` **should** alter the original array.
+
+**TODO**: Define a function in `arrays.js` called `accessElementInArray`. The function should accept an array and an index and return the element at that index.
+
+**TODO**: Define a function in `arrays.js` called `removeElementFromBeginningOfArray` that takes an array as its only argument and removes the first element. Your function should then return the entire array, and it **should not** mutate the underlying array.
+
+**TODO**: Define a function in `arrays.js` called `removeElementFromEndOfArray` that takes an array as its only argument and removes the last element. Your function should return the entire array, and it **should not** mutate the array.
+
 
 ## Resources
 
