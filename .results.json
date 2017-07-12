@@ -1,0 +1,258 @@
+{
+  "stats": {
+    "suites": 9,
+    "tests": 12,
+    "passes": 0,
+    "pending": 0,
+    "failures": 12,
+    "start": "2017-07-12T02:56:13.432Z",
+    "end": "2017-07-12T02:56:17.592Z",
+    "duration": 4160
+  },
+  "tests": [
+    {
+      "title": "is an array containing \"snickers\", \"hundred grand\", \"kitkat\", and \"skittles\"",
+      "fullTitle": "arrays chocolateBars is an array containing \"snickers\", \"hundred grand\", \"kitkat\", and \"skittles\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: chocolateBars is not defined\n    at Context.<anonymous> (test/index-test.js:4:14)",
+        "message": "chocolateBars is not defined"
+      }
+    },
+    {
+      "title": "adds an `element` to the beginning of an `array`",
+      "fullTitle": "arrays addElementToBeginningOfArray(array, element) adds an `element` to the beginning of an `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addElementToBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:10:14)",
+        "message": "addElementToBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "does not alter `array`",
+      "fullTitle": "arrays addElementToBeginningOfArray(array, element) does not alter `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addElementToBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:16:7)",
+        "message": "addElementToBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "adds an `element` to the beginning of an `array`",
+      "fullTitle": "arrays destructivelyAddElementToBeginningOfArray(array, element) adds an `element` to the beginning of an `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: destructivelyAddElementToBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:24:14)",
+        "message": "destructivelyAddElementToBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "alters `array`",
+      "fullTitle": "arrays destructivelyAddElementToBeginningOfArray(array, element) alters `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: destructivelyAddElementToBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:30:7)",
+        "message": "destructivelyAddElementToBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "adds an `element` to the end of an `array`",
+      "fullTitle": "arrays addElementToEndOfArray(array, element) adds an `element` to the end of an `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addElementToEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:38:14)",
+        "message": "addElementToEndOfArray is not defined"
+      }
+    },
+    {
+      "title": "does not alter `array`",
+      "fullTitle": "arrays addElementToEndOfArray(array, element) does not alter `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addElementToEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:44:7)",
+        "message": "addElementToEndOfArray is not defined"
+      }
+    },
+    {
+      "title": "adds an `element` to the end of an `array`",
+      "fullTitle": "arrays destructivelyAddElementToEndOfArray(array, element) adds an `element` to the end of an `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: destructivelyAddElementToEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:52:14)",
+        "message": "destructivelyAddElementToEndOfArray is not defined"
+      }
+    },
+    {
+      "title": "alters `array`",
+      "fullTitle": "arrays destructivelyAddElementToEndOfArray(array, element) alters `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: destructivelyAddElementToEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:58:7)",
+        "message": "destructivelyAddElementToEndOfArray is not defined"
+      }
+    },
+    {
+      "title": "accesses the element in `array` at the given `index`",
+      "fullTitle": "arrays accessElementInArray(array, index) accesses the element in `array` at the given `index`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: accessElementInArray is not defined\n    at Context.<anonymous> (test/index-test.js:66:14)",
+        "message": "accessElementInArray is not defined"
+      }
+    },
+    {
+      "title": "removes the first element from the `array`",
+      "fullTitle": "arrays removeElementFromBeginningOfArray(array) removes the first element from the `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: removeElementFromBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:72:14)",
+        "message": "removeElementFromBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "removes the last element from the `array`",
+      "fullTitle": "arrays removeElementFromEndOfArray(array) removes the last element from the `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: removeElementFromEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:78:14)",
+        "message": "removeElementFromEndOfArray is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is an array containing \"snickers\", \"hundred grand\", \"kitkat\", and \"skittles\"",
+      "fullTitle": "arrays chocolateBars is an array containing \"snickers\", \"hundred grand\", \"kitkat\", and \"skittles\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: chocolateBars is not defined\n    at Context.<anonymous> (test/index-test.js:4:14)",
+        "message": "chocolateBars is not defined"
+      }
+    },
+    {
+      "title": "adds an `element` to the beginning of an `array`",
+      "fullTitle": "arrays addElementToBeginningOfArray(array, element) adds an `element` to the beginning of an `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addElementToBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:10:14)",
+        "message": "addElementToBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "does not alter `array`",
+      "fullTitle": "arrays addElementToBeginningOfArray(array, element) does not alter `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addElementToBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:16:7)",
+        "message": "addElementToBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "adds an `element` to the beginning of an `array`",
+      "fullTitle": "arrays destructivelyAddElementToBeginningOfArray(array, element) adds an `element` to the beginning of an `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: destructivelyAddElementToBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:24:14)",
+        "message": "destructivelyAddElementToBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "alters `array`",
+      "fullTitle": "arrays destructivelyAddElementToBeginningOfArray(array, element) alters `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: destructivelyAddElementToBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:30:7)",
+        "message": "destructivelyAddElementToBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "adds an `element` to the end of an `array`",
+      "fullTitle": "arrays addElementToEndOfArray(array, element) adds an `element` to the end of an `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addElementToEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:38:14)",
+        "message": "addElementToEndOfArray is not defined"
+      }
+    },
+    {
+      "title": "does not alter `array`",
+      "fullTitle": "arrays addElementToEndOfArray(array, element) does not alter `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addElementToEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:44:7)",
+        "message": "addElementToEndOfArray is not defined"
+      }
+    },
+    {
+      "title": "adds an `element` to the end of an `array`",
+      "fullTitle": "arrays destructivelyAddElementToEndOfArray(array, element) adds an `element` to the end of an `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: destructivelyAddElementToEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:52:14)",
+        "message": "destructivelyAddElementToEndOfArray is not defined"
+      }
+    },
+    {
+      "title": "alters `array`",
+      "fullTitle": "arrays destructivelyAddElementToEndOfArray(array, element) alters `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: destructivelyAddElementToEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:58:7)",
+        "message": "destructivelyAddElementToEndOfArray is not defined"
+      }
+    },
+    {
+      "title": "accesses the element in `array` at the given `index`",
+      "fullTitle": "arrays accessElementInArray(array, index) accesses the element in `array` at the given `index`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: accessElementInArray is not defined\n    at Context.<anonymous> (test/index-test.js:66:14)",
+        "message": "accessElementInArray is not defined"
+      }
+    },
+    {
+      "title": "removes the first element from the `array`",
+      "fullTitle": "arrays removeElementFromBeginningOfArray(array) removes the first element from the `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: removeElementFromBeginningOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:72:14)",
+        "message": "removeElementFromBeginningOfArray is not defined"
+      }
+    },
+    {
+      "title": "removes the last element from the `array`",
+      "fullTitle": "arrays removeElementFromEndOfArray(array) removes the last element from the `array`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: removeElementFromEndOfArray is not defined\n    at Context.<anonymous> (test/index-test.js:78:14)",
+        "message": "removeElementFromEndOfArray is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
